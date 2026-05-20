@@ -137,7 +137,7 @@ vi. What is still missing
                           -phenocol ad
     iv. Input:
         - geno_${chr}_ph.* hapdose prefix files generated from previous steps (per chromosome)
-        - covarlist.txt phenotype + covariate file containing: sample IDs, phenotype column, specified covariate columns
+        - covarlist.txt phenotype + covariate file containing: sample IDs (format: familyID_individualID), phenotype column, specified covariate columns
     v. Output:
         - geno_out/geno_${chr}_out file containing the statistical summary of the performed GWAS
     vi. Missing:
