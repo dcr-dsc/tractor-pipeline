@@ -140,7 +140,7 @@ running=0
 for chr in "${CHRS[@]}"; do
   (
     Rscript run_tractor.R \
-      --hapdose "geno_${chr}_ph" \
+      --hapdose "geno_ph/geno_${chr}_ph" \
       --phenofile "$PHENOFILE" \
       --covarcollist "$COVARCOLLIST" \
       --method "$METHOD" \
